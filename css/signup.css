@@ -1,0 +1,78 @@
+body{
+   padding: 0;
+   margin: 0;
+   background: url(bg.jpg) no-repeat;
+   background-size: cover;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box{
+   width: 250px;
+   position:absolute;
+   top: 50%;
+   left: 50%;
+   color: black;
+   transform: translate(-50%,-50%);
+}
+.box h2{
+   float: left;
+   font-size: 30px;
+   margin-bottom: 40px;
+   border-bottom: 2px solid ;
+   padding: 10px,0 ;
+}
+.name{
+   font-size:20px ;
+   width: 100%;
+   padding: 8px,0;
+   margin: 8px,0;
+   overflow: hidden;
+   border-bottom:1px solid black ;
+}
+.passward{
+   font-size:20px ;
+   width: 100%;
+   padding: 8px,0;
+   margin: 8px,0;
+   overflow: hidden;
+   border-bottom:1px  solid black ;
+}
+.name i{
+   width: 25px;
+   float: left;
+   text-align: center ;
+}
+.passward i{
+   width: 25px;
+   float: left;
+   text-align: center ;
+}
+.name input{
+   border: none;
+   outline: none;
+   color: blue;
+   background: none;
+   font-size: 15px;
+   width: 80%;
+   float:left ;
+   margin: 0px,10px;
+}
+.passward input{
+   border: none;
+   outline: none;
+   color: blue ;
+   background: none;
+   font-size: 15px;
+   width: 80%;
+   float:left ;
+   margin: 0px, 10px;
+}
+.btn{
+   width: 100%;
+   background:rgba(199, 185, 57, 0.644) ;
+   border: 2px solid black;
+   color: black;
+   text-align: center;
+   padding: 5px;
+   font-size: 18px ;
+   margin: 12px, 0px;
+}
